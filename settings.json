@@ -1,0 +1,187 @@
+{
+    "python.testing.pytestEnabled": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "python.pythonPath": ".venv/bin/python",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "python.formatting.provider": "black",
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "[javascript]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 120,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2,
+    },
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.suggest.insertMode": "replace"
+    },
+    "liveServer.settings.host": "0.0.0.0",
+    "editor.tokenColorCustomizations": {
+        "[One Dark Pro]": {
+            "textMateRules": [
+                {
+                    "scope": "source.python",
+                    "settings":{
+                        "foreground": "#f3f3f3",
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function-call.python",
+                    "settings": {
+                        "foreground": "#D19A66",
+                    }
+                }
+                {
+                    "scope": "variable.other.property.js",
+                    "settings": {
+                        "foreground": "#ffffff",
+                    }
+                },
+                {
+                    "scope": "text.html.derivative",
+                    "settings": {
+                        "foreground": "#eeeeee",
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#1d1f21",
+        "sideBar.background": "#252526",
+        "activityBar.background": "#333333",
+        "editorGroupHeader.tabsBackground": "#252526",
+        "tab.activeBackground": "#1d1f21",
+        "tab.inactiveBackground": "#2d2d2d",
+        "tab.hoverBackground": "#ffffff00",
+        "terminal.background": "#1d1f21",
+        "panel.background": "#1d1f21",
+        "sideBarSectionHeader.background": "#383838",
+        "titleBar.activeBackground": "#3c3c3c", 
+        "debugToolBar.background": "#2d2d2d",
+        "editorLineNumber.foreground": "#888",
+    },
+    // "editor.semanticTokenColorCustomizations": null,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": [
+    
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.activityBar.visible": true,
+
+    // плагин TODO TREE
+    "todo-tree.general.debug": true,
+    "todo-tree.highlights.enabled": true, // разрешить использование цветов
+    "todo-tree.filtering.ignoreGitSubmodules": true, // игнорирование папок .git
+    "todo-tree.highlights.highlightDelay": 0, // задержка при подсветке
+    "todo-tree.tree.showCountsInTree": true, // показывать кол-во элементов в дереве
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^)\\s*($TAGS).*(\r*\n((//|#|;|\\**\\*)\\s*.*))*",
+    "todo-tree.general.tags": [
+        "TODO",
+        "ASK",
+        "FIXME",
+        "FIXIT",
+        "FIX",
+        "ATTENTION",
+        "BUG",
+        "WARN",
+        "WARNING",
+        "REVIEW",
+        "HACK",
+        "REF",
+        "COMPLETE"
+    ],
+    "todo-tree.general.tagGroups": {
+        "FIX": [
+            "FIXME",
+            "FIXIT",
+            "FIX",
+            "ATTENTION"
+        ],
+        "WARN": [
+            "BUG",
+            "WARN",
+            "WARNING"
+        ]
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "whole-line",
+        "foreground": "orange",
+        "icon": "tools",
+        "gutterIcon": true, // иконка в тексе
+        "iconColour": "orange" // цвет иконки
+    },
+    "todo-tree.highlights.customHighlight": {
+        "ASK": {
+            "icon": "question",
+            "foreground": "white",
+            "background": "chocolate"
+        },
+        "TODO": {
+            "fontWeight": "bold"
+        },
+        "FIX": {
+            "foreground": "black",
+            "background": "yellow",
+            "icon": "rocket",
+            "iconColour": "yellow" // цвет иконки
+        },
+        "WARN": {
+            "foreground": "white",
+            "background": "red",
+            "icon": "unmute",
+            "iconColour": "red" // цвет иконки
+        },
+        "REVIEW": {
+            "foreground": "black",
+            "background": "cyan",
+            "iconColour": "lightblue",
+            "icon": "eye"
+        },
+        "HACK": {
+            "icon": "alert",
+            "background": "maroon",
+            "iconColour": "brown"
+        },
+        "REF": {
+            "foreground": "black",
+            "background": "grey",
+            "iconColour": "grey",
+            "icon": "link",
+            "type": "tag"
+        },
+        "COMPLETE": {
+            "icon": "thumbsup",
+            "foreground": "white",
+            "background": "green",
+            "iconColour": "green",
+        }
+    },
+    //
+}
